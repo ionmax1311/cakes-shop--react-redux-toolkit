@@ -1,0 +1,28 @@
+.header {
+  height: 80px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 30px;
+}
+
+.wrapper {
+  display: flex;
+}
+
+.header__store-title {
+  color: #fff;
+  text-decoration: none;
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.header__cart-btn-wrapper {
+  justify-content: flex-end;
+}
+
+.header__wish-btn-wrapper {
+  margin-left: auto;
+  margin-right: 20px;
+  margin-top: 4px;
+}

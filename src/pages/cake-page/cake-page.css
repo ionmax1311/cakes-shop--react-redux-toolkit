@@ -1,0 +1,38 @@
+.cake-page__content {
+  display: flex;
+}
+
+.cake-page__left {
+  width: 70%;
+  margin-right: 50px;
+}
+
+.cake-page__right {
+  width: 30%;
+}
+
+.cake-page__buy-cake {
+  display: flex;
+  justify-content: flex-end;
+  margin-top: 20px;
+}
+
+.cake-page .cake-cover {
+  height: 400px;
+  border-radius: 15px;
+}
+
+.cake-page__title {
+  margin-top: 0;
+  margin-bottom: 80px;
+}
+
+.cake-page__wrap-icon {
+  display: flex;
+  align-items: flex-end;
+  justify-content: space-between;
+}
+
+.cake-page__wish-icon {
+  cursor: pointer;
+}

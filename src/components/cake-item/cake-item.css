@@ -1,0 +1,46 @@
+.cake-item {
+  text-decoration: none;
+  width: 320px;
+  height: 300px;
+  color: #fff;
+  background-color: rgb(36, 37, 41);
+  border-radius: 15px;
+  cursor: pointer;
+  position: relative;
+}
+
+.cake-item:not(:last-child) {
+  margin-bottom: 30px;
+  margin-right: 50px;
+}
+
+.cake-item__title {
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.cake-item__genre {
+  margin-top: 10px;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.cake-item__details {
+  padding: 10px 20px;
+}
+.cake-item__description {
+  margin-top: 10px;
+  font-size: 14px;
+}
+
+.cake-item__buy {
+  position: absolute;
+  right: 0;
+  bottom: -12px;
+}
+
+.cake-item__wish-icon {
+  position: absolute;
+  right: 10px;
+  bottom: 30px;
+}
